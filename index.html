@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Alvaro</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRÍCULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcularMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/AlvaroGonzaloAuccapomaHuanay.jpg" alt="">
+                <h1>Alvaro Auccapoma Huanay</h1>
+                <h2>Web Developer Jr</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/alvaro.auccapoma" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/alvaro.auccapoma/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/alvaro-auccapoma/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/AlvaroAuccapomaH" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Alvaro Auccapoma</span> Bachiller en Ingeniería de Sistemas e Informática en la prestigiosa Universidad Tecnológica del Perú.Tengo una gran pasión por el desarrollo de interfaz de usuario, las animaciones y la creación de experiencias de usuario intuitivas y dinámicas. Interesado con los proyectos de frotend y backend, organizado cumpliendo con las metodologias, solucionador de problemas y trabajo en equipo</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col datos-personales">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong> 982229212
+                        </li>
+                        <li>
+                            <strong>Email</strong> alvaro.gah10@gmail.com
+                        </li>
+                        <li>
+                            <strong>Whatsapp</strong>
+                            <a href="https://wa.link/oxw40y" target="_blank">link Whatsapp</a>
+                        </li>
+                        <li>
+                            <strong>Telegram</strong>
+                            <a href="https://t.me/alvaro_auccapoma" target="_blank">link Telegram</a>
+                        </li>
+                        <li>
+                            <strong>Dirección</strong> Lima - Perú
+                        </li>
+                        <li>
+                            <strong>Cargo</strong> <span>Desarrollo Web</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- interes -->
+                <div class="col datos-interes">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-tv"></i>
+                            <span>T.V.series</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>COMPUTADORA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button> <a download href="archivo/CVALVAROAUCCAPOMAHUANAY.pdf" target="_blank">Descargar CV</a>
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="contenedor-skill">
+                        <div class="skill">
+                            <img src="img/javascript.svg" alt="">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/html5.svg" alt="">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/css.svg" alt="">
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/php.svg" alt="">
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/git.svg" alt="">
+                            <span>GIT</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/java.svg" alt="">
+                            <span>JAVA</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/SQL.png" alt="">
+                            <span>SQLSERVER</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/bootstrap.svg" alt="">
+                            <span>BOOTSTRAP</span>
+                        </div>
+                        <div class="skill">
+                            <img src="img/mysql.svg" alt="">
+                            <span>MYSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROFESSIONAL SKILL -->
+
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill profe">
+                        <span>Comunicación</span>
+                    </div>
+
+                    <div class="skill profe">
+                        <span>Trabajo en equipo</span>
+                    </div>
+
+                    <div class="skill profe">
+                        <span>Creatividad</span>
+                    </div>
+
+                    <div class="skill profe">
+                        <span>Dedicación</span>
+                    </div>
+
+                    <div class="skill profe">
+                        <span>Proyect Management</span>
+                    </div>
+                    <div class="skill profe">
+                        <span>Responsabilidad</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Currículum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Estudios Universitarios - Ingeniería de Sistemas e Informática</h4>
+                        <span class="casa">Universidad Tecnológia del Perú</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>Bachiller en Ingenería de Sistemas e Informática. Culmine la universidad de manera exitosa ocupadando décimo, tercio y quinto superior, obteniendo una beca por el buen rendimiento academico. Adquiri el conocimiento y especialización necesaria para poder trabajar en la rama del desarrollo web</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Estudios SISTEMAS UNI</h4>
+                        <span class="casa">Algoritmo y estructura de datos básico</span>
+                        <span class="fecha">03/01/20 - 10/01/20</span>
+                        <p>Obtuve los conocimientos y el
+                            entrenamiento básico en la ciencia algorítmica,
+                            de cara a desarrollar capacidades que me permitan abordar la
+                            complejidad de problemas que puedan ser
+                            resueltos a través de la implementaciones
+                            de soluciones computacionales e informáticas
+                            aplicables en la ciencia, tecnología y negocios.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Soporte TI</h4>
+                        <span class="casa">Clínica Sanna el GOLF</span>
+                        <span class="fecha">2021 - 2021</span>
+                        <p></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Mesa de ayuda</h4>
+                        <span class="casa">Clínica Sanna el GOLF</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Infraestructura</h4>
+                        <span class="casa">Clínica Sanna el GOLF</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCCION PORTAFOLIO -->
+
+    <section class="portafolio" id="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="0">
+                        <img src="img/Summerhousesale.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Venta de Casa</h3>
+                            <p>SummerHouseSale</p>
+
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="1">
+                        <img src="img/Storejacket.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Venta de camisetas</h3>
+                            <p>StoreJacket</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="2">
+                        <img src="img/Blogcafeandcourse.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Venta y curso de café</h3>
+                            <p>CafeandCourse</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="3">
+                        <img src="img/Musicandrock.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Música y Rock</h3>
+                            <p>Rock & EDM Festival</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="4">
+                        <img src="img/Pokedexpokemontemporada1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Pokemon</h3>
+                            <p>Pokedex</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="5">
+                        <img src="img/Localtimeanddate.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Hora y fecha</h3>
+                            <p>LocalTime</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="6">
+                        <img src="img/Calculatorbasicoperation.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Calculadora Básica</h3>
+                            <p>CalculatorBasic</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="7">
+                        <img src="img/Saleofheadset.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Venta de auriculares</h3>
+                            <p>TechPRO</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="proyecto">
+                    <a href="#" class="cta" id="8">
+                        <img src="img/Ecommerce.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Venta de muebles</h3>
+                            <p>Ecommerce</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenedio-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- formulario -->
+                <div class="col">
+                    <form action="https://formsubmit.co/646de2417925a10320f82493f61fc5c4" method="POST" id="formulario">
+                        <input type="text" placeholder="Tú nombre" name="name">
+                        <input type="text" placeholder="Número telefónico" name="telefono">
+                        <input type="text" placeholder="Dirección de correo" name="email">
+                        <input type="text" placeholder="Tema" name="cargo">
+                        <textarea name="textogeneral" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#contacto">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-container">
+        <div class="modal modal-close">
+            <img src="img/Summerhousesale.jpg" alt="VentaDeCasas">
+            <div class="modal-texto">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="footer-modal">
+                <div class="enlace">
+                    <a href="" target="_blank">View Website</a>
+                </div>
+                <button class="close" id="btncerrar">X</button>
+            </div>
+        </div>
+        <div class="overlay" id="divcerrar"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
